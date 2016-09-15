@@ -30,15 +30,12 @@ public class Euler8 {
     public static void main(String... args) {
         System.out.println(Euler8.sum(4, NUMBER));
         System.out.println(Euler8.sum(13, NUMBER));
-
         Euler8.charMultiply2(NUMBER);
-
     }
 
     private static long sum(int len, String n) {
         String subString;
         long max = 0;
-
         for (int i = 0; i < n.length()-len; i++) {
             subString = n.substring(i, i + len);
             long multiplied = Euler8.charMultiply(subString);
