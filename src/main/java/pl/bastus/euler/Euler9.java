@@ -31,8 +31,6 @@ public class Euler9 {
 
     public static void main(String... args) {
         System.out.println(Euler9.triplet(1000));
-//        System.out.println(Euler9.triplet(50));
-//        System.out.println(Euler9.triplet(1000));
     }
 
     private static TreeMap<Long, Long> triplet(int number) {
